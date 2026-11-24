@@ -243,3 +243,5 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 - **Safety Guardrails:** Defaults scope to `localhost` and requires explicit flags before targeting non-default hosts.
 
 - **Unit Tests:** Run `python -m pytest -q` to verify core token parsing, cracking, and tampering logic.
+
+- **CLI Subcommands:** Supports `inspect`, `crack`, and `tamper` for token inspection, dictionary testing, and authorized tampering checks.
