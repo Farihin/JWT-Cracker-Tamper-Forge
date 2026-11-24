@@ -232,3 +232,6 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## Responsible Disclosure & Legal Notice
 - Report discovered vulnerabilities privately to the system or application owner before public disclosure.
 - Built strictly for educational and authorized security auditing under IKB31603 Ethical Hacking (UniKL MIIT).
+
+- Release Tag: `v1.0.0`
+
