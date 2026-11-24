@@ -235,3 +235,5 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 - Release Tag: `v1.0.0`
 
+
+- **Inspect & Crack:** Decodes JWT headers/payloads and audits HMAC secrets against `wordlists/common_jwt_secrets.txt`.
