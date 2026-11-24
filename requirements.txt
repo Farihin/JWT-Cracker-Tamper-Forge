@@ -1,0 +1,4 @@
+# The tool itself only uses the Python standard library (hmac, hashlib,
+# base64, json, argparse, ipaddress, signal) -- no runtime dependency.
+# pytest is only needed to run the test suite in tests/.
+pytest>=7.0

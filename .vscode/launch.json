@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Inspect demo token",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--i-accept-responsibility",
+        "inspect",
+        "--token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMDAxIiwicm9sZSI6InVzZXIiLCJpc3MiOiJsb2NhbGhvc3QifQ.beYg-oG3o8Ucts2TX86aG5x1tJ92hGREkxztKnyJu0M"
+      ]
+    },
+    {
+      "name": "Crack demo token",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--i-accept-responsibility",
+        "crack",
+        "--token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMDAxIiwicm9sZSI6InVzZXIiLCJpc3MiOiJsb2NhbGhvc3QifQ.beYg-oG3o8Ucts2TX86aG5x1tJ92hGREkxztKnyJu0M",
+        "--wordlist", "wordlists/common_jwt_secrets.txt"
+      ]
+    },
+    {
+      "name": "Tamper: alg none",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--i-accept-responsibility",
+        "tamper",
+        "--token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMDAxIiwicm9sZSI6InVzZXIiLCJpc3MiOiJsb2NhbGhvc3QifQ.beYg-oG3o8Ucts2TX86aG5x1tJ92hGREkxztKnyJu0M",
+        "--none-alg"
+      ]
+    },
+    {
+      "name": "Current file (no args)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
