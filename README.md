@@ -245,3 +245,5 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 - **Unit Tests:** Run `python -m pytest -q` to verify core token parsing, cracking, and tampering logic.
 
 - **CLI Subcommands:** Supports `inspect`, `crack`, and `tamper` for token inspection, dictionary testing, and authorized tampering checks.
+
+- **Repository Layout:** Organizes core audit logic under `core/`, unit tests under `tests/`, and sample secrets under `wordlists/`.
