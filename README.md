@@ -239,3 +239,5 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 - **Inspect & Crack:** Decodes JWT headers/payloads and audits HMAC secrets against `wordlists/common_jwt_secrets.txt`.
 
 - **Tamper Modes:** Supports testing `alg: none` stripping, claim modifications, and RS256-to-HS256 key confusion on authorized targets.
+
+- **Safety Guardrails:** Defaults scope to `localhost` and requires explicit flags before targeting non-default hosts.
