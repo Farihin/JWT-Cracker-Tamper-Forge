@@ -228,3 +228,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## Rules of Engagement & Scope
 - Only test JWT tokens and endpoints on authorized targets (localhost by default; explicit authorization required for any other host).
 - Do not run tampering or cracking workflows against production systems or unauthorized third-party environments.
+
+## Responsible Disclosure & Legal Notice
+- Report discovered vulnerabilities privately to the system or application owner before public disclosure.
+- Built strictly for educational and authorized security auditing under IKB31603 Ethical Hacking (UniKL MIIT).
