@@ -247,3 +247,5 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 - **CLI Subcommands:** Supports `inspect`, `crack`, and `tamper` for token inspection, dictionary testing, and authorized tampering checks.
 
 - **Repository Layout:** Organizes core audit logic under `core/`, unit tests under `tests/`, and sample secrets under `wordlists/`.
+
+- **Submission Reference:** Paired with release tag `v1.0.0` and the 3-5 page ethical hacking report.
