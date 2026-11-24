@@ -225,3 +225,6 @@ This software is developed strictly for **educational coursework (IKB31603 Ethic
 ## License
 
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
+## Rules of Engagement & Scope
+- Only test JWT tokens and endpoints on authorized targets (localhost by default; explicit authorization required for any other host).
+- Do not run tampering or cracking workflows against production systems or unauthorized third-party environments.
